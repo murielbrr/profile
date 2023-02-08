@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+/* .card {
+  background-color: #fefae0;
+  border: 1px solid red;
+  text-align: center;
+} */
+
+.image-circle {
+  border-radius: 50%;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  text-align: center;
+  margin: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 6px;
+
+
+
+}
+
+body {
+  font-family: Poppins, sans-serif;
+
+}
+
+h1 {
+  color: #ffc8dd;
+  font-size: 40px;
+}
+
+p {
+
+  font-size: 20px;
+  color: #8d99ae;
+  line-height: 21px;
+  padding: 20px;
+
+}
+
+a {
+  font-size: 20px;
+  color: #8d99ae;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #82a7e7;
+  color: #ffc8dd
+}
+
+h2 {
+  color: #8d99ae;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding: 0px;
+
+}
+
+
+.btn-pink {
+  border: 1px solid #f7f4f4;
+  background: #ffc8dd;
+  padding: 15px 20px;
+  border-radius: 4px;
+
+}
